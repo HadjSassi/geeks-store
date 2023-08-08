@@ -1,44 +1,23 @@
-# Anon - An eCommerce Website
+# Geeks Store Project
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/anon-ecommerce-website)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/anon-ecommerce-website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/anon-ecommerce-website?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-[![YouTube Video Views](https://img.shields.io/youtube/views/3l8Lob4ysI0?style=social)](https://youtu.be/3l8Lob4ysI0)
+This project demonstrates the usage of Docker and MySQLi in PHP to establish a connection to a database. It is associated with the Geeks Store Trello task 'liaison bd': [Geeks Store Trello Board](https://trello.com/b/K7a2SGeG/geeks-store).
 
-Anon is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.
+## Requirements
 
-## Demo
+- Docker
 
-![Anon Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Anon Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Getting Started
 
-## Prerequisites
+1. Clone this repository to your local machine.
 
-Before you begin, ensure you have met the following requirements:
+2. Open a terminal and navigate to the project directory.
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+3. Run the following command to start the Docker containers:
 
-## Installing Anon
+   docker-compose up
 
-To install **Anon**, follow these steps:
+This will build and start the necessary containers for the project.
 
-Linux and macOS:
+4. Once the containers are up and running, you can access the demo database through phpMyAdmin by opening your web browser and navigating to: http://localhost:8001/
 
-```bash
-sudo git clone https://github.com/codewithsadee/anon-ecommerce-website.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/anon-ecommerce-website.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-## License
-
-This project is **free to use** and does not contains any license.
+5. Open the http://localhost:80/ to navigate throw the website.

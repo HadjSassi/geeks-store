@@ -1,0 +1,31 @@
+<?php
+
+namespace Geekstore;
+
+//getting the environmental variables (Recommanded: we can use Dotenv module instead)
+$envFilePath = __DIR__ . '/../.env';
+$envContents = file_get_contents($envFilePath);
+$envLines = explode("\n", $envContents);
+
+foreach ($envLines as $envLine) {
+    $parts = explode(':', $envLine, 2);
+    if (count($parts) === 2) {
+        $key = trim($parts[0]);
+        $value = trim($parts[1]);
+        $_ENV[$key] = $value;
+    }
+}
+
+class DB_connection
+{
+    public static function database_connection(): \mysqli
+    {
+        $dbuser = $_ENV['MYSQL_USER'];
+        $dbpass = $_ENV['MYSQL_PASSWORD'];
+        $host = "db"; 
+        $port = $_ENV['MYSQL_PORT'];
+        $db = $_ENV['MYSQL_DATABASE'];
+        return new \mysqli($host, $dbuser, $dbpass, $db, $port);
+        
+    }
+}

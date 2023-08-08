@@ -5,17 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anon - eCommerce Website</title>
+  <title><?= $sys->name; ?></title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="view/assets/images/logo/favicon.ico" type="image/x-icon">
 
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <link rel="stylesheet" href="view/assets/css/style-prefix.css">
 
   <!--
     - google font link
@@ -47,7 +47,7 @@
       </button>
 
       <div class="newsletter-img">
-        <img src="./assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+        <img src="view/assets/images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
       </div>
 
       <div class="newsletter">
@@ -91,7 +91,7 @@
     </button>
 
     <div class="toast-banner">
-      <img src="./assets/images/products/jewellery-1.jpg" alt="Rose Gold Earrings" width="80" height="70">
+      <img src="view/assets/images/products/jewellery-1.jpg" alt="Rose Gold Earrings" width="80" height="70">
     </div>
 
     <div class="toast-detail">
@@ -189,7 +189,7 @@
       <div class="container">
 
         <a href="#" class="header-logo">
-          <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+          <img src="view/assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
         </a>
 
         <div class="header-search-container">
@@ -267,7 +267,7 @@
 
                 <li class="panel-list-item">
                   <a href="#">
-                    <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                    <img src="view/assets/images/electronics-banner-1.jpg" alt="headphone collection" width="250"
                       height="119">
                   </a>
                 </li>
@@ -302,7 +302,7 @@
 
                 <li class="panel-list-item">
                   <a href="#">
-                    <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                    <img src="view/assets/images/mens-banner.jpg" alt="men's fashion" width="250" height="119">
                   </a>
                 </li>
 
@@ -336,7 +336,7 @@
 
                 <li class="panel-list-item">
                   <a href="#">
-                    <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                    <img src="view/assets/images/womens-banner.jpg" alt="women's fashion" width="250" height="119">
                   </a>
                 </li>
 
@@ -370,7 +370,7 @@
 
                 <li class="panel-list-item">
                   <a href="#">
-                    <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                    <img src="view/assets/images/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
                   </a>
                 </li>
 
@@ -780,7 +780,7 @@
 
           <div class="slider-item">
 
-            <img src="./assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+            <img src="view/assets/images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
 
             <div class="banner-content">
 
@@ -800,7 +800,7 @@
 
           <div class="slider-item">
 
-            <img src="./assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
+            <img src="view/assets/images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
 
             <div class="banner-content">
 
@@ -820,7 +820,7 @@
 
           <div class="slider-item">
 
-            <img src="./assets/images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
+            <img src="view/assets/images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
 
             <div class="banner-content">
 
@@ -861,7 +861,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/dress.svg" alt="dress & frock" width="30">
+              <img src="view/assets/images/icons/dress.svg" alt="dress & frock" width="30">
             </div>
 
             <div class="category-content-box">
@@ -881,7 +881,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/coat.svg" alt="winter wear" width="30">
+              <img src="view/assets/images/icons/coat.svg" alt="winter wear" width="30">
             </div>
 
             <div class="category-content-box">
@@ -901,7 +901,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/glasses.svg" alt="glasses & lens" width="30">
+              <img src="view/assets/images/icons/glasses.svg" alt="glasses & lens" width="30">
             </div>
 
             <div class="category-content-box">
@@ -921,7 +921,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/shorts.svg" alt="shorts & jeans" width="30">
+              <img src="view/assets/images/icons/shorts.svg" alt="shorts & jeans" width="30">
             </div>
 
             <div class="category-content-box">
@@ -941,7 +941,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/tee.svg" alt="t-shirts" width="30">
+              <img src="view/assets/images/icons/tee.svg" alt="t-shirts" width="30">
             </div>
 
             <div class="category-content-box">
@@ -961,7 +961,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/jacket.svg" alt="jacket" width="30">
+              <img src="view/assets/images/icons/jacket.svg" alt="jacket" width="30">
             </div>
 
             <div class="category-content-box">
@@ -981,7 +981,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/watch.svg" alt="watch" width="30">
+              <img src="view/assets/images/icons/watch.svg" alt="watch" width="30">
             </div>
 
             <div class="category-content-box">
@@ -1001,7 +1001,7 @@
           <div class="category-item">
 
             <div class="category-img-box">
-              <img src="./assets/images/icons/hat.svg" alt="hat & caps" width="30">
+              <img src="view/assets/images/icons/hat.svg" alt="hat & caps" width="30">
             </div>
 
             <div class="category-content-box">
@@ -1060,7 +1060,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/dress.svg" alt="clothes" width="20" height="20"
+                    <img src="view/assets/images/icons/dress.svg" alt="clothes" width="20" height="20"
                       class="menu-title-img">
 
                     <p class="menu-title">Clothes</p>
@@ -1112,7 +1112,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20"
+                    <img src="view/assets/images/icons/shoes.svg" alt="footwear" class="menu-title-img" width="20"
                       height="20">
 
                     <p class="menu-title">Footwear</p>
@@ -1164,7 +1164,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/jewelry.svg" alt="clothes" class="menu-title-img" width="20"
+                    <img src="view/assets/images/icons/jewelry.svg" alt="clothes" class="menu-title-img" width="20"
                       height="20">
 
                     <p class="menu-title">Jewelry</p>
@@ -1209,7 +1209,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/perfume.svg" alt="perfume" class="menu-title-img" width="20"
+                    <img src="view/assets/images/icons/perfume.svg" alt="perfume" class="menu-title-img" width="20"
                       height="20">
 
                     <p class="menu-title">Perfume</p>
@@ -1261,7 +1261,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/cosmetics.svg" alt="cosmetics" class="menu-title-img" width="20"
+                    <img src="view/assets/images/icons/cosmetics.svg" alt="cosmetics" class="menu-title-img" width="20"
                       height="20">
 
                     <p class="menu-title">Cosmetics</p>
@@ -1313,7 +1313,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/glasses.svg" alt="glasses" class="menu-title-img" width="20"
+                    <img src="view/assets/images/icons/glasses.svg" alt="glasses" class="menu-title-img" width="20"
                       height="20">
 
                     <p class="menu-title">Glasses</p>
@@ -1351,7 +1351,7 @@
                 <button class="sidebar-accordion-menu" data-accordion-btn>
 
                   <div class="menu-title-flex">
-                    <img src="./assets/images/icons/bag.svg" alt="bags" class="menu-title-img" width="20" height="20">
+                    <img src="view/assets/images/icons/bag.svg" alt="bags" class="menu-title-img" width="20" height="20">
 
                     <p class="menu-title">Bags</p>
                   </div>
@@ -1412,7 +1412,7 @@
                 <div class="showcase">
 
                   <a href="#" class="showcase-img-box">
-                    <img src="./assets/images/products/1.jpg" alt="baby fabric shoes" width="75" height="75"
+                    <img src="view/assets/images/products/1.jpg" alt="baby fabric shoes" width="75" height="75"
                       class="showcase-img">
                   </a>
 
@@ -1442,7 +1442,7 @@
                 <div class="showcase">
 
                   <a href="#" class="showcase-img-box">
-                    <img src="./assets/images/products/2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
+                    <img src="view/assets/images/products/2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
                       width="75" height="75">
                   </a>
 
@@ -1471,7 +1471,7 @@
                 <div class="showcase">
 
                   <a href="#" class="showcase-img-box">
-                    <img src="./assets/images/products/3.jpg" alt="girls t-shirt" class="showcase-img" width="75"
+                    <img src="view/assets/images/products/3.jpg" alt="girls t-shirt" class="showcase-img" width="75"
                       height="75">
                   </a>
 
@@ -1500,7 +1500,7 @@
                 <div class="showcase">
 
                   <a href="#" class="showcase-img-box">
-                    <img src="./assets/images/products/4.jpg" alt="woolen hat for men" class="showcase-img" width="75"
+                    <img src="view/assets/images/products/4.jpg" alt="woolen hat for men" class="showcase-img" width="75"
                       height="75">
                   </a>
 
@@ -1555,7 +1555,7 @@
                   <div class="showcase">
 
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/clothes-1.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
+                      <img src="view/assets/images/products/clothes-1.jpg" alt="relaxed short full sleeve t-shirt" width="70" class="showcase-img">
                     </a>
 
                     <div class="showcase-content">
@@ -1578,7 +1578,7 @@
                   <div class="showcase">
                   
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/clothes-2.jpg" alt="girls pink embro design top" class="showcase-img" width="70">
+                      <img src="view/assets/images/products/clothes-2.jpg" alt="girls pink embro design top" class="showcase-img" width="70">
                     </a>
                   
                     <div class="showcase-content">
@@ -1601,7 +1601,7 @@
                   <div class="showcase">
                   
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/clothes-3.jpg" alt="black floral wrap midi skirt" class="showcase-img"
+                      <img src="view/assets/images/products/clothes-3.jpg" alt="black floral wrap midi skirt" class="showcase-img"
                         width="70">
                     </a>
                   
@@ -1625,7 +1625,7 @@
                   <div class="showcase">
                   
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/shirt-1.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
+                      <img src="view/assets/images/products/shirt-1.jpg" alt="pure garment dyed cotton shirt" class="showcase-img"
                         width="70">
                     </a>
                   
@@ -1653,7 +1653,7 @@
                   <div class="showcase">
                 
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/jacket-5.jpg" alt="men yarn fleece full-zip jacket" class="showcase-img"
+                      <img src="view/assets/images/products/jacket-5.jpg" alt="men yarn fleece full-zip jacket" class="showcase-img"
                         width="70">
                     </a>
                 
@@ -1677,7 +1677,7 @@
                   <div class="showcase">
                 
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/jacket-1.jpg" alt="mens winter leathers jackets" class="showcase-img"
+                      <img src="view/assets/images/products/jacket-1.jpg" alt="mens winter leathers jackets" class="showcase-img"
                         width="70">
                     </a>
                 
@@ -1701,7 +1701,7 @@
                   <div class="showcase">
                 
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/jacket-3.jpg" alt="mens winter leathers jackets" class="showcase-img"
+                      <img src="view/assets/images/products/jacket-3.jpg" alt="mens winter leathers jackets" class="showcase-img"
                         width="70">
                     </a>
                 
@@ -1725,7 +1725,7 @@
                   <div class="showcase">
                 
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/shorts-1.jpg" alt="better basics french terry sweatshorts" class="showcase-img"
+                      <img src="view/assets/images/products/shorts-1.jpg" alt="better basics french terry sweatshorts" class="showcase-img"
                         width="70">
                     </a>
                 
@@ -1763,7 +1763,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/sports-1.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                      <img src="view/assets/images/products/sports-1.jpg" alt="running & trekking shoes - white" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1787,7 +1787,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/sports-2.jpg" alt="trekking & running shoes - black" class="showcase-img"
+                      <img src="view/assets/images/products/sports-2.jpg" alt="trekking & running shoes - black" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1811,7 +1811,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/party-wear-1.jpg" alt="womens party wear shoes" class="showcase-img"
+                      <img src="view/assets/images/products/party-wear-1.jpg" alt="womens party wear shoes" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1835,7 +1835,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/sports-3.jpg" alt="sports claw women's shoes" class="showcase-img"
+                      <img src="view/assets/images/products/sports-3.jpg" alt="sports claw women's shoes" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1863,7 +1863,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/sports-6.jpg" alt="air tekking shoes - white" class="showcase-img"
+                      <img src="view/assets/images/products/sports-6.jpg" alt="air tekking shoes - white" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1887,7 +1887,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/shoe-3.jpg" alt="Boot With Suede Detail" class="showcase-img" width="70">
+                      <img src="view/assets/images/products/shoe-3.jpg" alt="Boot With Suede Detail" class="showcase-img" width="70">
                     </a>
             
                     <div class="showcase-content">
@@ -1910,7 +1910,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/shoe-1.jpg" alt="men's leather formal wear shoes" class="showcase-img"
+                      <img src="view/assets/images/products/shoe-1.jpg" alt="men's leather formal wear shoes" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1934,7 +1934,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/shoe-2.jpg" alt="casual men's brown shoes" class="showcase-img" width="70">
+                      <img src="view/assets/images/products/shoe-2.jpg" alt="casual men's brown shoes" class="showcase-img" width="70">
                     </a>
             
                     <div class="showcase-content">
@@ -1971,7 +1971,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
+                      <img src="view/assets/images/products/watch-3.jpg" alt="pocket watch leather pouch" class="showcase-img"
                         width="70">
                     </a>
             
@@ -1995,7 +1995,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
+                      <img src="view/assets/images/products/jewellery-3.jpg" alt="silver deer heart necklace" class="showcase-img"
                         width="70">
                     </a>
             
@@ -2019,7 +2019,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
+                      <img src="view/assets/images/products/perfume.jpg" alt="titan 100 ml womens perfume" class="showcase-img"
                         width="70">
                     </a>
             
@@ -2043,7 +2043,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
+                      <img src="view/assets/images/products/belt.jpg" alt="men's leather reversible belt" class="showcase-img"
                         width="70">
                     </a>
             
@@ -2071,7 +2071,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
+                      <img src="view/assets/images/products/jewellery-2.jpg" alt="platinum zircon classic ring" class="showcase-img"
                         width="70">
                     </a>
             
@@ -2095,7 +2095,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
+                      <img src="view/assets/images/products/watch-1.jpg" alt="smart watche vital plus" class="showcase-img" width="70">
                     </a>
             
                     <div class="showcase-content">
@@ -2118,7 +2118,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
+                      <img src="view/assets/images/products/shampoo.jpg" alt="shampoo conditioner packs" class="showcase-img"
                         width="70">
                     </a>
             
@@ -2142,7 +2142,7 @@
                   <div class="showcase">
             
                     <a href="#" class="showcase-img-box">
-                      <img src="./assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
+                      <img src="view/assets/images/products/jewellery-1.jpg" alt="rose gold peacock earrings" class="showcase-img"
                         width="70">
                     </a>
             
@@ -2188,7 +2188,7 @@
                 <div class="showcase">
                   
                   <div class="showcase-banner">
-                    <img src="./assets/images/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                    <img src="view/assets/images/products/shampoo.jpg" alt="shampoo, conditioner & facewash packs" class="showcase-img">
                   </div>
 
                   <div class="showcase-content">
@@ -2278,7 +2278,7 @@
                 <div class="showcase">
               
                   <div class="showcase-banner">
-                    <img src="./assets/images/products/jewellery-1.jpg" alt="Rose Gold diamonds Earring" class="showcase-img">
+                    <img src="view/assets/images/products/jewellery-1.jpg" alt="Rose Gold diamonds Earring" class="showcase-img">
                   </div>
               
                   <div class="showcase-content">
@@ -2371,8 +2371,8 @@
 
                 <div class="showcase-banner">
 
-                  <img src="./assets/images/products/jacket-3.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default">
-                  <img src="./assets/images/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover">
+                  <img src="view/assets/images/products/jacket-3.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img default">
+                  <img src="view/assets/images/products/jacket-4.jpg" alt="Mens Winter Leathers Jackets" width="300" class="product-img hover">
 
                   <p class="showcase-badge">15%</p>
 
@@ -2426,9 +2426,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/shirt-1.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img default"
+                  <img src="view/assets/images/products/shirt-1.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/shirt-2.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img hover"
+                  <img src="view/assets/images/products/shirt-2.jpg" alt="Pure Garment Dyed Cotton Shirt" class="product-img hover"
                     width="300">
               
                   <p class="showcase-badge angle black">sale</p>
@@ -2479,9 +2479,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/jacket-5.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
+                  <img src="view/assets/images/products/jacket-5.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/jacket-6.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
+                  <img src="view/assets/images/products/jacket-6.jpg" alt="MEN Yarn Fleece Full-Zip Jacket" class="product-img hover"
                     width="300">
               
                   <div class="showcase-actions">
@@ -2530,9 +2530,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/clothes-3.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img default"
+                  <img src="view/assets/images/products/clothes-3.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/clothes-4.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img hover"
+                  <img src="view/assets/images/products/clothes-4.jpg" alt="Black Floral Wrap Midi Skirt" class="product-img hover"
                     width="300">
               
                   <p class="showcase-badge angle pink">new</p>
@@ -2583,9 +2583,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/shoe-2.jpg" alt="Casual Men's Brown shoes" class="product-img default"
+                  <img src="view/assets/images/products/shoe-2.jpg" alt="Casual Men's Brown shoes" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/shoe-2_1.jpg" alt="Casual Men's Brown shoes" class="product-img hover"
+                  <img src="view/assets/images/products/shoe-2_1.jpg" alt="Casual Men's Brown shoes" class="product-img hover"
                     width="300">
               
                   <div class="showcase-actions">
@@ -2634,9 +2634,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/watch-3.jpg" alt="Pocket Watch Leather Pouch" class="product-img default"
+                  <img src="view/assets/images/products/watch-3.jpg" alt="Pocket Watch Leather Pouch" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/watch-4.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
+                  <img src="view/assets/images/products/watch-4.jpg" alt="Pocket Watch Leather Pouch" class="product-img hover"
                     width="300">
               
                   <p class="showcase-badge angle black">sale</p>
@@ -2687,9 +2687,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/watch-1.jpg" alt="Smart watche Vital Plus" class="product-img default"
+                  <img src="view/assets/images/products/watch-1.jpg" alt="Smart watche Vital Plus" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/watch-2.jpg" alt="Smart watche Vital Plus" class="product-img hover" width="300">
+                  <img src="view/assets/images/products/watch-2.jpg" alt="Smart watche Vital Plus" class="product-img hover" width="300">
               
                   <div class="showcase-actions">
                     <button class="btn-action">
@@ -2737,9 +2737,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/party-wear-1.jpg" alt="Womens Party Wear Shoes" class="product-img default"
+                  <img src="view/assets/images/products/party-wear-1.jpg" alt="Womens Party Wear Shoes" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/party-wear-2.jpg" alt="Womens Party Wear Shoes" class="product-img hover"
+                  <img src="view/assets/images/products/party-wear-2.jpg" alt="Womens Party Wear Shoes" class="product-img hover"
                     width="300">
               
                   <p class="showcase-badge angle black">sale</p>
@@ -2790,9 +2790,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/jacket-1.jpg" alt="Mens Winter Leathers Jackets" class="product-img default"
+                  <img src="view/assets/images/products/jacket-1.jpg" alt="Mens Winter Leathers Jackets" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/jacket-2.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
+                  <img src="view/assets/images/products/jacket-2.jpg" alt="Mens Winter Leathers Jackets" class="product-img hover"
                     width="300">
               
                   <div class="showcase-actions">
@@ -2841,9 +2841,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/sports-2.jpg" alt="Trekking & Running Shoes - black" class="product-img default"
+                  <img src="view/assets/images/products/sports-2.jpg" alt="Trekking & Running Shoes - black" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/sports-4.jpg" alt="Trekking & Running Shoes - black" class="product-img hover"
+                  <img src="view/assets/images/products/sports-4.jpg" alt="Trekking & Running Shoes - black" class="product-img hover"
                     width="300">
               
                   <p class="showcase-badge angle black">sale</p>
@@ -2894,9 +2894,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/shoe-1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img default"
+                  <img src="view/assets/images/products/shoe-1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img default"
                     width="300">
-                  <img src="./assets/images/products/shoe-1_1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
+                  <img src="view/assets/images/products/shoe-1_1.jpg" alt="Men's Leather Formal Wear shoes" class="product-img hover"
                     width="300">
               
                   <div class="showcase-actions">
@@ -2945,9 +2945,9 @@
               <div class="showcase">
               
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/shorts-1.jpg" alt="Better Basics French Terry Sweatshorts"
+                  <img src="view/assets/images/products/shorts-1.jpg" alt="Better Basics French Terry Sweatshorts"
                     class="product-img default" width="300">
-                  <img src="./assets/images/products/shorts-2.jpg" alt="Better Basics French Terry Sweatshorts"
+                  <img src="view/assets/images/products/shorts-2.jpg" alt="Better Basics French Terry Sweatshorts"
                     class="product-img hover" width="300">
               
                   <p class="showcase-badge angle black">sale</p>
@@ -3029,13 +3029,13 @@
 
             <div class="testimonial-card">
 
-              <img src="./assets/images/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
+              <img src="view/assets/images/testimonial-1.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80">
 
               <p class="testimonial-name">Alan Doe</p>
 
               <p class="testimonial-title">CEO & Founder Invision</p>
 
-              <img src="./assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
+              <img src="view/assets/images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26">
 
               <p class="testimonial-desc">
                 Lorem ipsum dolor sit amet consectetur Lorem ipsum
@@ -3054,7 +3054,7 @@
 
           <div class="cta-container">
 
-            <img src="./assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
+            <img src="view/assets/images/cta-banner.jpg" alt="summer collection" class="cta-banner">
 
             <a href="#" class="cta-content">
 
@@ -3184,7 +3184,7 @@
           <div class="blog-card">
 
             <a href="#">
-              <img src="./assets/images/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner">
+              <img src="view/assets/images/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner">
             </a>
 
             <div class="blog-content">
@@ -3206,7 +3206,7 @@
           <div class="blog-card">
           
             <a href="#">
-              <img src="./assets/images/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
+              <img src="view/assets/images/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
                 class="blog-banner" width="300">
             </a>
           
@@ -3229,7 +3229,7 @@
           <div class="blog-card">
           
             <a href="#">
-              <img src="./assets/images/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
+              <img src="view/assets/images/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue."
                 class="blog-banner" width="300">
             </a>
           
@@ -3252,7 +3252,7 @@
           <div class="blog-card">
           
             <a href="#">
-              <img src="./assets/images/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
+              <img src="view/assets/images/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle."
                 class="blog-banner" width="300">
             </a>
           
@@ -3563,7 +3563,7 @@
 
       <div class="container">
 
-        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+        <img src="view/assets/images/payment.png" alt="payment method" class="payment-img">
 
         <p class="copyright">
           Copyright &copy; <a href="#">Anon</a> all rights reserved.
@@ -3583,7 +3583,7 @@
   <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="view/assets/js/script.js"></script>
 
   <!--
     - ionicon link
