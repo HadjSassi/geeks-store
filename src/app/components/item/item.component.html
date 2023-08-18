@@ -1,0 +1,80 @@
+<section class="py-5">
+  <div class="container px-4 px-lg-5 my-5">
+    <div class="row gx-4 gx-lg-5 align-items-center">
+      <div class="col-md-6">
+        <img
+          class="card-img-top mb-5 mb-md-0"
+          src="https://i5.walmartimages.com/asr/df7b3805-fb03-42e4-bcb2-d00ef1c0c7ae.6ffde79bd7515c7f4c84e0db656e9a3e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF"
+          alt="..."
+        />
+      </div>
+      <div class="col-md-6">
+        <div class="small mb-1">SKU: BST-498</div>
+        <!-- Item code or wtvr -->
+        <h1 class="display-5 fw-bolder">{{ item.name }}</h1>
+        <!-- Item name -->
+        <div class="fs-5 mb-5">
+          <span class="text-decoration-line-through">$45.00</span>
+          <span> ${{ item.price }}</span>
+        </div>
+        <!-- Item description -->
+        <p class="lead">{{ item.description }}</p>
+        <!--more description -->
+        <p class="mb-4">
+          Don’t miss out on this item. It’s trending right now!
+        </p>
+        <p class="lead"></p>
+        <!-- Select Size Section -->
+        <div class="form-group me-5 mb-2">
+          <label for="selectSize">Size:</label>
+          <select class="form-control" id="selectSize">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+          </select>
+        </div>
+
+        <!-- Select Color Section -->
+        <div class="form-group me-5 mb-3">
+          <label for="selectColor ">Color:</label>
+          <select class="form-control" id="selectColor">
+            <option *ngFor="let color of item.colors">{{ color }}</option>
+          </select>
+        </div>
+        <div class="d-flex flex-column flex-md-row">
+          <input
+            class="form-control text-center"
+            id="inputQuantity"
+            type="number"
+            [(ngModel)]="selectedQuantity"
+            style="max-width: 3rem"
+            min="1"
+          />
+          <button
+            class="btn btn-outline-success flex-shrink-0 px-lg-5 mx-2"
+            type="button"
+            (click)="addToCart()"
+          >
+            <i class="bi-cart-fill me-1"></i>
+            Add to cart
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-cart-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+              />
+            </svg>
+          </button>
+          <button type="button" class="btn btn-outline-danger mx-1">
+            Like
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+/* item.component.css .item-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.item-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.item-details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.item-form {
+  flex: 1;
+}
+
+.item-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-form label,
+.item-form select,
+.item-form input {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.item-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-form button:hover {
+  background-color: #0056b3;
+} */
